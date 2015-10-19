@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE FlowTeste_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		-- CALL CopyMessageHeaders();
-		-- Teste
+
 		CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
